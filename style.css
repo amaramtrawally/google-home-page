@@ -1,0 +1,119 @@
+ * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:#000;
+    text-decoration: none;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Top Navbar */
+    .navbar {
+      display: flex;
+      justify-content: flex-end;
+      padding: 15px 20px;
+      font-size: 14px;
+    }
+
+    .navbar a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #202124;
+    }
+
+    ul li:hover, .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Content */
+    .main{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: -15rem;
+    }
+
+    .logo img {
+      max-width: 300px;
+      width: 95%;
+    }
+
+    .search-container {
+      margin-top: 10px;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      border: 1px solid #dfe1e5;
+      border-radius: 24px;
+      padding: 10px 15px;
+      box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    }
+
+    .search-box input {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .buttons input {
+      background-color: #f8f9fa;
+      border: 1px solid #f8f9fa;
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 14px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .buttons input:hover {
+      border: 1px solid #c6c6c6;
+    }
+
+.footer{
+  background-color:rgb(242, 244, 248);
+} 
+
+ ul{
+     display: flex;
+      padding: 15px 20px;
+      font-size: 14px;
+}
+
+ul li a{
+  margin: 1rem;
+  margin-top:20rem;
+}
+.third-ul{
+  margin-left: 40rem;
+}
+
+    @media (max-width: 600px) {
+      .navbar {
+        font-size: 12px;
+        justify-content: center;
+      }
+      .buttons input {
+        font-size: 12px;
+        padding: 8px 12px;
+      }
+    }
